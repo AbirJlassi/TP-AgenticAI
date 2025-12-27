@@ -17,7 +17,7 @@ AgenticAI is a small multi-agent data science project that coordinates specializ
 - `data/` — example CSV files (e.g., `WineQT.csv`)
 
 **Requirements**
-The project depends on a few third-party packages. Recommended minimal list:
+The project depends on a few third-party packages.:
 
 ```
 crewai
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-By default `main.py` expects a CSV path at `data/WineQT.csv` — update `csv_path` in `main.py` or pass your own dataset.
+By default `main.py` expects a CSV path at `data/iris.csv` — update `csv_path` in `main.py` or pass your own dataset.
 
 **Configuration Notes**
 - `settings.py` uses `python-dotenv` to load a `.env` file. It raises a `RuntimeError` if required keys are missing.
@@ -60,7 +60,6 @@ By default `main.py` expects a CSV path at `data/WineQT.csv` — update `csv_pat
 - Tools are implemented as subclasses of `crewai.tools.BaseTool` in `tools.py`.
 
 **Next steps / Tips**
-yPI, install it per your project instructions (it may be internal/private).
 - To add custom tools, follow the `CSVReaderTool` and `DataStatsTool` patterns in `tools.py`.
 
 **License**
