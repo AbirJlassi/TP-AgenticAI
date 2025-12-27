@@ -14,7 +14,7 @@ AgenticAI is a small multi-agent data science project that coordinates specializ
 - `tools.py` — `csv_reader` and `data_stats` tools (Pydantic inputs)
 - `llama_llm.py` — LLM wrapper configuration
 - `settings.py` — loads environment variables (Hugging Face & Serper keys)
-- `data/` — example CSV files (e.g., `WineQT.csv`)
+- `data/` — example CSV files (e.g., `Iris.csv`)
 
 **Requirements**
 The project depends on a few third-party packages.:
