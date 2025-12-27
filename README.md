@@ -1,4 +1,4 @@
-# AgenticAI — Multi‑Agent Data Science Crew
+# Multi‑Agent Data Science Crew
 
 AgenticAI is a small multi-agent data science project that coordinates specialized agents (planner, data analyst, modelling specialist, report writer) to analyze CSV datasets and produce a structured technical report.
 
